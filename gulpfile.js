@@ -19,8 +19,8 @@ var gulp           = require('gulp'),
 // Скрипты проекта
 gulp.task('scripts', function() {
 	return gulp.src([
-		'app/libs/jquery/dist/jquery.min.js',
-		'app/libs/bxslider-4/dist/jquery.bxslider.min.js',
+		'app/libs/jquery/jquery.js',
+		'app/libs/bxslider-4/dist/jquery.bxslider.js',
 		'app/js/common.js',
 		])
 	.pipe(concat('scripts.min.js'))
