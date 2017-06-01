@@ -7,7 +7,7 @@
 <h2>How to use Test-page</h2>
 
 <ol>
-	<li><a href="https://github.com/agragregra/optimizedhtml-start-template/archive/master.zip">Download</a> <strong>optimizedhtml-start-template</strong> from GitHub;</li>
+	<li><a href="https://github.com/agragregra/optimizedhtml-start-template/archive/master.zip">Download</a> <strong>test-page</strong> from GitHub;</li>
 	<li>Install Node Modules: <strong>npm i</strong>;</li>
 	<li>Run the template: <strong>gulp</strong>.</li>
 </ol>
