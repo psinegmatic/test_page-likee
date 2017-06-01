@@ -1,0 +1,39 @@
+.user-block
+  display: -webkit-flex
+  display: -moz-flex
+  display: -ms-flex
+  display: -o-flex
+  display: flex
+  align-items: center
+  padding-left: 30px
+  border-left: 1px solid $bordergrey
+  
+.user-block__item
+  margin-left: 15px
+  margin-right: 15px
+  &--login
+    display: block
+    width: 34px
+    height: 36px
+    background-image: url("../img/user-icon.png")
+    background-repeat: no-repeat
+    background-size: cover
+    transition: 0.7s
+    &:hover
+      background-image: url("../img/user-icon-hover.png")
+      transition: 0.7s
+    
+    
+.user-block__search-icon
+  fill: #cececf
+  transition: 0.7s
+  
+.user-block__burger-icon
+  fill: #303336
+  
+.user-block__item:hover
+  .user-block__search-icon
+    fill: #303336
+    transition: 0.7s
+  .user-block__burger-icon
+    fill: #000000

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>400</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+</head>
+
+<body>
+ <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0" style="position:absolute">
+	
+		<symbol id="burger-icon" viewBox="0 0 31.03 27">
+			<path fill="#ffffff" d="M1409.98 36H1441v4.908h-31.02V36zm0 11.455H1441v4.909h-31.02v-4.909zm0 10.636H1441V63h-31.02v-4.909z" transform="translate(-1409.97 -36)"></path>
+		</symbol>
+	
+		<symbol id="developer-logo" viewBox="0 0 107 19">
+			<path fill="#ffffff" d="M39.67 14.02L44.83 19 55.87 5.52 50.94.31zM62.57.04L51.38 14.05 56.61 19 67.85 5.26h10.82L77.59 6.8h-8.78l-5.82 7.29L67.81 19h8.78l3.85-5.42h-9.26l1.24-1.66h9.03l5.38-6.59-4.5-5.32zM11.12.01L6.7 5.38h10.39L16 6.74H5.58L0 13.52 4.95 19l5.37-6.63h8.58l6.06-7.43L20.95.01h-9.83zm16.31 13.28l6.42-7.84h2.36l-6.4 7.85zM30.78.01L19.85 13.45l4.68 5.54V19h8.79l-.01-.02L44.38 5.57 40.12.01h-9.34zM92.98 0l-4.26 5.26h10.77L98.25 6.8H87.8l-4.76 5.66-.89 1.06L86.89 19l3.85-4.95L94.18 19h8.25l-5.11-6.64h3.71L107 4.7 103.05.01z"></path>
+		</symbol>
+	
+		<symbol id="fb-icon" viewBox="0 0 10 20">
+			<path fill="#ffffff" d="M9.9.4C8.6.1 7.3 0 6.1 0c-3 0-4.2 2.2-4.2 4.9v1.8H.1v3.5h1.8V20h3.6v-9.8H9V6.7H5.5V4.6c0-.9 1.5-1.3 2.2-1.3.6 0 1.1.1 1.7.2L9.9.4z"></path>
+		</symbol>
+	
+		<symbol id="inst-icon" viewBox="0 0 20 20">
+			<path fill="#ffffff" d="M14.3 19.1H5.4c-1.9-.3-3.4-1.6-4.1-3.4-.2-.4-.3-.9-.3-1.3V5.6c.3-2 1.6-3.6 3.4-4.2.5-.2 1-.3 1.5-.4h7.5c.7 0 1.4.1 2.1.3.4.2.7.3 1 .5.3.2.6.4.9.7.3.2.5.5.7.8.2.3.4.7.6 1 0 .1 0 .1.1.2.2.4.3.9.4 1.3v8.9c-.3 1.9-1.6 3.4-3.4 4-.6.2-1 .3-1.5.4zM10 2.6H6.4c-.3 0-.6 0-.9.1-1.7.3-2.9 1.9-2.9 3.6v7.3c0 .3 0 .5.1.8.3 1.8 1.9 3 3.7 3h7.3c.3 0 .6-.1.8-.1 1.7-.4 3-1.9 2.9-3.7V6.3c0-.3 0-.5-.1-.8-.4-1.7-1.9-2.9-3.7-2.9H10zm-4.4 17h-.3c-2.1-.3-3.8-1.7-4.5-3.7-.3-.5-.4-1-.4-1.6v-9C.8 3.2 2.2 1.4 4.2.7 4.8.5 5.3.4 5.9.3h7.5c.8 0 1.5.1 2.3.3.4.1.8.3 1.2.6.4.2.7.4 1 .7.3.3.6.6.8.9l.6 1.2s0 .1.1.1c.1.3.2.7.3 1 0 .1.1.3.1.4v8.8c0 .1 0 .3-.1.4-.3 2.1-1.8 3.8-3.8 4.5l-.1.1c-.4.2-.9.3-1.4.3H5.6zm-.1-1.2h8.8l.9-.3.1-.1c1.6-.5 2.7-1.9 3-3.5V5.8l-.1-.3c0-.3-.1-.5-.2-.8v-.1c-.1-.3-.3-.6-.5-.9-.2-.3-.4-.6-.6-.8-.2-.2-.5-.4-.8-.6-.3-.1-.6-.3-.9-.4-.6-.1-1.2-.2-1.9-.2H5.9c-.4 0-.8.1-1.3.3-1.6.6-2.7 1.9-3 3.6v8.8c0 .4.1.8.3 1.1.6 1.5 1.9 2.6 3.6 2.9zm3.9-.4h-3c-2.1 0-3.9-1.4-4.3-3.5-.1-.2-.1-.5-.1-.9V6.3c0-2 1.4-3.8 3.4-4.3.3 0 .6-.1 1-.1h7.2c2.1 0 3.9 1.4 4.3 3.5.1.3.1.6.1 1v7.3c0 2.1-1.4 3.9-3.4 4.3-.3.1-.6.1-.9.1H9.4zM8.1 3.2H6.4c-.2 0-.5 0-.7.1-1.4.3-2.5 1.5-2.4 3v7.3c0 .2 0 .5.1.7.3 1.4 1.6 2.5 3.1 2.4h7.3c.2 0 .5 0 .7-.1 1.4-.3 2.5-1.5 2.4-3V6.4c0-.2 0-.5-.1-.7-.3-1.5-1.5-2.5-3-2.5H8.1zM10 13.6c-2 0-3.7-1.6-3.7-3.6v-.1c0-2 1.7-3.7 3.7-3.7s3.7 1.7 3.7 3.7c0 2.1-1.6 3.7-3.7 3.7.1 0 0 0 0 0zm2.5-3.7c0-1.4-1.1-2.4-2.5-2.4S7.6 8.6 7.6 10c0 1.3 1.1 2.4 2.5 2.4 1.3.1 2.4-1 2.4-2.5 0 .1 0 .1 0 0zM10 14.4c-2.4 0-4.3-2-4.3-4.4 0-2.4 1.9-4.3 4.3-4.3s4.3 1.9 4.3 4.3c.1 2.4-1.9 4.3-4.3 4.4zm0-1.3v.6-.6zm0-5.5v.6c-1-.1-1.8.8-1.8 1.7 0 .5.2 1 .5 1.3.3.4.8.6 1.3.6 1-.1 1.8-.9 1.8-1.9 0-1-.8-1.8-1.8-1.8v-.5zm5.1-2c0 .4-.4.6-.7.6-.3 0-.6-.3-.6-.6 0-.4.3-.7.6-.7.4 0 .7.3.7.7 0-.1 0-.1 0 0zm-.7 1.3c-.3 0-.7-.2-.9-.4-.2-.2-.4-.6-.4-.9 0-.7.5-1.3 1.2-1.3h.1c.7 0 1.3.5 1.3 1.2 0 .4-.1.7-.4 1-.2.2-.5.3-.9.4zm0-1.5z"></path>
+		</symbol>
+	
+		<symbol id="search-icon" viewBox="0 0 33 34">
+			<path fill="#ffffff" d="M13.76 27.856a13.929 13.929 0 1 1 13.76-13.927 13.866 13.866 0 0 1-13.76 13.927zm0-22.158a8.231 8.231 0 1 0 8.13 8.232 8.195 8.195 0 0 0-8.13-8.23zM29.02 34l-9.96-10.085 3.98-4.029L33 29.971z"></path>
+		</symbol>
+	
+		<symbol id="tw-icon" viewBox="0 0 612 612">
+			<path fill="#ffffff" d="M612 116.258a250.714 250.714 0 0 1-72.088 19.772c25.929-15.527 45.777-40.155 55.184-69.411-24.322 14.379-51.169 24.82-79.775 30.48-22.907-24.437-55.49-39.658-91.63-39.658-69.334 0-125.551 56.217-125.551 125.513 0 9.828 1.109 19.427 3.251 28.606-104.326-5.24-196.835-55.223-258.75-131.174-10.823 18.51-16.98 40.078-16.98 63.101 0 43.559 22.181 81.993 55.835 104.479a125.556 125.556 0 0 1-56.867-15.756v1.568c0 60.806 43.291 111.554 100.693 123.104-10.517 2.83-21.607 4.398-33.08 4.398-8.107 0-15.947-.803-23.634-2.333 15.985 49.907 62.336 86.199 117.253 87.194-42.947 33.654-97.099 53.655-155.916 53.655-10.134 0-20.116-.612-29.944-1.721 55.567 35.681 121.536 56.485 192.438 56.485 230.948 0 357.188-191.291 357.188-357.188l-.421-16.253c24.666-17.593 46.005-39.697 62.794-64.861z" fill="#010002"></path>
+		</symbol>
+	
+		<symbol id="vk-icon" viewBox="0 0 14 16">
+			<path fill="#ffffff" d="M10 7.2l.4-.2c1.4-1 2.2-1.9 2.2-3.4C12.5.2 9.3 0 6.7 0H0v16h7.2c3.2 0 6.2-1.3 6.2-5 .1-1.9-1.4-3.6-3.4-3.8zM4 3h2c1.2 0 2.4-.1 2.4 1.4C8.5 6 7.2 6 5.9 6H4v.3V3zm2.2 10H4V9h2.7c1.4 0 2.8.2 2.8 1.9 0 2-1.8 2.1-3.3 2.1z"></path>
+		</symbol>
+	
+</svg>
+
+  <header class="page-header">
+    <div class="main-container">
+      <a href="#" class="main-logo"><img src="img/header-logo.png" alt="400"></a>
+      <nav class="page-header__nav">
+        <ul class="page-header__nav-items">
+          <li class="page-header__nav-item"><a href="#">Новокузнецк 400</a></li>
+          <li class="page-header__nav-item  page-header__nav-item--active"><a href="#">Календарь событий</a></li>
+          <li class="page-header__nav-item"><a href="#">Голосование</a></li>
+          <li class="page-header__nav-item"><a href="#">Проекты</a></li>
+          <li class="page-header__nav-item"><a href="#">Благоустройство</a></li>
+        </ul>
+      </nav>
+      <div class="user-block">
+        <a class="user-block__item"  href="#">
+          <svg class="user-block__search-icon" width="32" height="32">
+            <use x="0" y="0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search-icon"></use>
+          </svg>
+        </a>
+        <a class="user-block__item  user-block__item--login"  href="#">
+        </a>
+        <a class="user-block__item"  href="#">
+          <svg class="user-block__burger-icon" width="34" height="34">
+            <use x="0" y="0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#burger-icon"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="calendar">
+      <div class="main-container">
+       <div class="days-slider">
+        <div class="days-slider__item">
+          <h2 class="days-slider__title">Городской праздник здорового образа жизни</h2>
+          <div class="days-slider__date">
+            <div class="days-slider__date-top">
+              <span><b>25 мая</b></span>
+              <span>14:00—21:30</span>
+            </div>
+            <div class="days-slider__date-bottom">
+              <span><b>172</b> дня до юбелея</span>
+            </div>
+          </div>
+          <div class="days-slider__type">
+            <a href="#" class="btn">Город-сад</a>
+            <a href="#" class="btn">Город-спорт</a>
+          </div>
+          </div>
+          <div class="slider-contorls">
+            <a class="slider-contorls__btn  slider-contorls__btn--left"  href="#"></a>
+            <a class="slider-contorls__btn  slider-contorls__btn--right"  href="#"></a>
+          </div>
+      </div>
+        <div class="days-schedule">
+         <ul class="days-schedule__list">
+          <li href="#" class="days-schedule__item">
+            <h3 class="days-schedule__item-title"><a href="#">Проводы зимы или «Масленица»</a></h3>
+            <span class="days-schedule__item-time">14:00</span>
+            <a class="days-schedule__item-location">Площадь общественных меропориятий</a>
+          </li>
+          <li href="#" class="days-schedule__item">
+            <h3 class="days-schedule__item-title"><a href="#">Собираем урожай</a></h3>
+            <span class="days-schedule__item-time">14:00—14:50</span>
+            <a class="days-schedule__item-location">ДК «Аллюминщик»</a>
+          </li>
+          <li href="#" class="days-schedule__item">
+            <h3 class="days-schedule__item-title"><a href="#">Новый джаз у старой крепости</a></h3>
+            <span class="days-schedule__item-time">15:00—15:30</span>
+            <a class="days-schedule__item-location">Джаз-клуб «Геликон»</a>
+          </li>
+          <li href="#" class="days-schedule__item">
+            <h3 class="days-schedule__item-title"><a href="#">Проводы зимы или «Масленица»</a><span>Проект</span></h3>
+            <span class="days-schedule__item-time">20:30—21:30</span>
+            <a class="days-schedule__item-location">Площадь общественных меропориятий</a>
+          </li>
+        </ul>
+          <a href="#" class="days-schedule__expand-btn">Еще 2 события</a>
+        </div>
+      </div>
+      <div class="months-slider">
+       <div class="bxslider">
+        <a href="#">1
+          <span class="first">Март <em>2017</em></span>
+        </a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">7</a>
+        <a href="#">8</a>
+        <a href="#">9</a>
+        <a href="#">10</a>
+        <a href="#">11</a>
+        <a href="#">12</a>
+        <a href="#">13</a>
+        <a href="#">14</a>
+        <a href="#">15</a>
+        <a href="#">16</a>
+        <a href="#">17</a>
+        <a href="#">18</a>
+        <a href="#">19</a>
+        <a href="#">20</a>
+        <a href="#">21</a>
+        <a href="#">22</a>
+        <a href="#">23</a>
+        <a href="#">24</a>
+        <a href="#">25</a>
+        <a href="#">26</a>
+        <a href="#">27</a>
+        <a href="#">28</a>
+        <a href="#">29</a>
+        <a href="#">30</a>
+        <a class="active" href="#">31
+          <span class="last">Март <em>2017</em></span>
+        </a> 
+        <a href="#">1
+          <span class="first">Апрель <em>2017</em></span>
+        </a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">7</a>
+        <a href="#">8</a>
+        <a href="#">9</a>
+        <a href="#">10</a>
+        <a href="#">11</a>
+        <a href="#">12</a>
+        <a href="#">13</a>
+        <a href="#">14</a>
+        <a href="#">15</a>
+        <a href="#">16</a>
+        <a href="#">17</a>
+        <a href="#">18</a>
+        <a href="#">19</a>
+        <a href="#">20</a>
+        <a href="#">21</a>
+        <a href="#">22</a>
+        <a href="#">23</a>
+        <a href="#">24</a>
+        <a href="#">25</a>
+        <a href="#">26</a>
+        <a href="#">27</a>
+        <a href="#">28</a>
+        <a href="#">29</a>
+        <a class="active" href="#">30
+          <span class="last">Апрель <em>2017</em></span>
+        </a>
+        <a href="#">1
+          <span class="first">Май <em>2017</em></span>
+        </a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">7</a>
+        <a href="#">8</a>
+        <a href="#">9</a>
+        <a href="#">10</a>
+        <a href="#">11</a>
+        <a href="#">12</a>
+        <a href="#">13</a>
+        <a href="#">14</a>
+        <a href="#">15</a>
+        <a href="#">16</a>
+        <a href="#">17</a>
+        <a href="#">18</a>
+        <a href="#">19</a>
+        <a href="#">20</a>
+        <a href="#">21</a>
+        <a href="#">22</a>
+        <a href="#">23</a>
+        <a href="#">24</a>
+        <a href="#">25</a>
+        <a href="#">26</a>
+        <a href="#">27</a>
+        <a href="#">28</a>
+        <a href="#">29</a>
+        <a href="#">30</a>
+        <a class="active" href="#">31
+          <span class="last">Май <em>2017</em></span>
+        </a> 
+        </div>   
+      </div>
+      <div class="main-container  main-container--fade">
+        
+      </div>
+    </div>
+  </main>
+  <footer class="page-footer">
+    <div class="main-container  main-container--border">
+      <div class="page-footer__nav">
+        <nav class="page-footer__main-nav">
+          <ul>
+            <li><a href="#">Новокузнецк 4OO</a></li>
+            <li><a href="#">Календарь событий</a></li>
+            <li><a href="#">Голосование</a></li>
+            <li><a href="#">Проекты</a></li>
+          </ul>
+        </nav>
+        <div class="page-footer__minor-nav">
+          <ul>
+            <li><a href="#">5 шагов благоустройства</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Фотобанк</a></li>
+            <li><a href="#">Партнеры</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Карта сайта</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="main-container  page-footer__end">
+      <div class="page-footer__descr">
+        <img class="city-logo" src="img/city-logo.png" alt="Герб!" width="31" height="37">
+        <p>Сайт Новокузнецк 400 посвящен подготовке к празднованию 400 летия города Новокузнецк. Сайт является образовательным информационным проектом администрации и жителей города. По всем вопросам его работы обращайтесь в разделе контакты.</p>
+      </div>
+      <div class="social-links">
+        <a href="#">
+          <svg class="social-links__icon" width="22" height="22">
+            <use x="0" y="0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#inst-icon"></use>
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="social-links__icon" width="22" height="22">
+            <use x="0" y="0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#tw-icon"></use>
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="social-links__icon" width="20" height="20">
+            <use x="0" y="0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#vk-icon"></use>
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="social-links__icon" width="22" height="25">
+            <use x="0" y="0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fb-icon"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="developer">
+        <a href="#">
+          <svg class="developer__icon" width="108" height="20">
+            <use x="0" y="0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#developer-logo"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+
+	<script src="js/scripts.min.js"></script>
+
+</body>
+
+</html>

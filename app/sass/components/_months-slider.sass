@@ -1,0 +1,54 @@
+.months-slider
+  width: 100%
+  padding-bottom: 30px
+  background-image: url(../img/calendar-scale.svg)
+  background-position: 0 100%
+  background-repeat: repeat-x
+  .bx-wrapper
+    width: 100%
+    max-width: 100% !important
+    margin-bottom: 0
+    border: none
+    box-shadow: none
+  .bx-viewport
+    overflow: visible !important
+    border: none
+  a
+    position: relative
+    display: inline-block
+    width: 62px
+    height: 62px
+    margin-right: 5px
+    font-size: 36px
+    line-height: 62px
+    color: $textgrey
+    text-align: center
+    border-radius: 8px
+    background-color: $grey
+    &:hover
+      color: $black
+      background-color: $darkgrey
+    span
+      position: absolute
+      top: -75px
+      left: 0
+      display: -webkit-flex
+      display: -moz-flex
+      display: -ms-flex
+      display: -o-flex
+      display: flex
+      align-items: baseline
+      font-size: 42px
+      color: $black
+      font-weight: bold
+      em
+        margin-left: 20px
+        font-size: 22px
+        color: $textgrey
+        font-weight: normal
+        font-style: normal
+    .last
+      left: -350px
+  .active
+    color: #ffffff
+    background-color: $pink

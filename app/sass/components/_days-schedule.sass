@@ -1,0 +1,83 @@
+.days-schedule
+  padding: 0 46px 0 97px
+  box-sizing: border-box
+
+.days-schedule__list
+  margin-bottom: 30px
+  border-top: 1px solid $bordergrey
+  
+.days-schedule__item
+  display: -webkit-flex
+  display: -moz-flex
+  display: -ms-flex
+  display: -o-flex
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  padding: 24px 0
+  border-bottom: 1px solid $bordergrey
+  
+  
+.days-schedule__item-title
+  font-size: 20px
+  line-height: 26px
+  font-weight: normal
+  display: -webkit-flex
+  display: -moz-flex
+  display: -ms-flex
+  display: -o-flex
+  display: flex
+  flex-wrap: wrap
+  a
+    width: 100%
+    margin-bottom: 5px
+  span
+    display: inline-block
+    padding: 0 10px
+    margin-bottom: 5px
+    font-size: 13px
+    line-height: 20px
+    font-weight: bold
+    vertical-align: middle
+    text-transform: uppercase
+    background-color: $grey
+    border-radius: 14px
+  
+.days-schedule__item-time
+  font-size: 22px
+  line-height: 32px
+  
+.days-schedule__item-location
+  width: 100%
+  color: $textgrey
+  &:hover
+    color: $black
+  
+.days-schedule__expand-btn
+  position: relative
+  display: inline-block
+  padding: 10px 25px 10px 45px
+  color: #ffffff
+  text-transform: uppercase
+  background-color: $pink
+  border-radius: 40px
+  transition: 0.7s
+  &:hover
+    background-color: $grey
+    color: $black
+    transition: 0.7s
+    &::after
+      border-color: $black
+      transition: 0.7s
+  &::after
+    content: ""
+    position: absolute
+    top: 27%
+    left: 12%
+    display: block
+    transform: rotate(225deg);
+    width: 8px
+    height: 8px
+    border-top: 3px solid #ffffff
+    border-left: 3px solid #ffffff
+    transition: 0.7s

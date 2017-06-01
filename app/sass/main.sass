@@ -1,0 +1,69 @@
+@import "bourbon"
+@import "fonts"
+@import "libs"
+@import "vars"
+
+
+@import "layouts/page-header"
+@import "layouts/calendar"
+@import "layouts/page-footer"
+
+
+@import "components/btn"
+@import "components/days-schedule"
+@import "components/days-slider"
+@import "components/developer"
+@import "components/months-slider"
+@import "components/slider-controls"
+@import "components/social-links"
+@import "components/user-block"
+
+
+body
+	position: relative
+	margin: 0
+	font-size: 16px
+	line-height: 20px
+	font-family: $default-font
+	color: $black
+	letter-spacing: -0.02em
+	overflow-x: hidden
+
+a
+  color: $black
+  text-decoration: none
+  &:hover
+    color: $pink
+
+ul,
+li,
+h1,
+h2,
+h3,
+p 
+  @include list-null
+
+
+svg,
+svg * 
+  fill: inherit
+  stroke: inherit
+
+
+.main-container
+  width: 1280px
+  padding: 0 20px
+  margin: 0 auto
+  display: -webkit-flex
+  display: -moz-flex
+  display: -ms-flex
+  display: -o-flex
+  display: flex
+  justify-content: space-between
+  &--border
+    border-bottom: 1px solid $bordergrey
+  &--fade
+    height: 61px
+    margin-top: 57px
+    border-top: 1px solid $bordergrey
+    border-bottom: 1px solid $bordergrey

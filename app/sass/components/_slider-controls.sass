@@ -1,0 +1,35 @@
+.slider-conrols
+  
+.slider-contorls__btn
+  position: relative
+  display: inline-block
+  width: 55px
+  height: 55px
+  margin-right: 10px
+  border: 2px solid $bordergrey
+  border-radius: 50%
+  transition: 0.7s
+  &:hover
+    background-color: $pink
+    border-color: $pink
+    transition: 0.7s
+    &::after
+      border-color: #ffffff
+      transition: 0.7s
+  &::after
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    display: block
+    transform-origin: -35% 70%;
+    transform: rotate(-45deg);
+    width: 10px
+    height: 10px
+    border-top: 3px solid #8b8b8b
+    border-left: 3px solid #8b8b8b
+    transition: 0.7s
+  &--right
+    &::after
+      transform-origin: 27% 7%;
+      transform: rotate(135deg);
