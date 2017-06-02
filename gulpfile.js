@@ -21,6 +21,7 @@ gulp.task('scripts', function() {
 	return gulp.src([
 		'app/libs/jquery/jquery.js',
 		'app/libs/bxslider-4/dist/jquery.bxslider.js',
+		'app/libs/OwlCarousel2/owl.carousel.min.js',
 		'app/js/common.js',
 		])
 	.pipe(concat('scripts.min.js'))
